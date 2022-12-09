@@ -14,9 +14,9 @@
     filter: sepia(85%);
     height: 320px;
     width: 400px;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 
 }
 
@@ -38,6 +38,11 @@
     width: 25px;
     margin-left: 2px;
 }
+
+.emoji {
+    width: 32px;
+    margin-left: 7px;
+}
 </style>
 <body>
     <div class="container mt-5">
@@ -51,7 +56,7 @@
         <p>My angels without wings, I call them. Even though they are actually my niece Paula's animal companions. But I learned to love them almost as much as she does.</p>
 
         <br>
-        <h3 class="mt-3">Do you want to meet them?</h3> <em><small>(click on the photo to see each one as a baby)</small></em>
+        <h3 class="mt-3">Do you want to meet them?</h3> <em><small>(click on the photo to see each one of them as a baby)</small></em>
 
         <!---- cards----->
 
@@ -82,7 +87,7 @@
             </div>
             <div class="col">
               <div class="card">
-                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/191/original/IMG-20220620-WA0017.jpg?1670518860" class="card-img-top" alt="nala" id="nala" onclick="changePic()">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/326/original/nalita.jpg?1670567836" class="card-img-top" alt="nala" id="nala" onclick="changePic()">
                 <div class="card-body">
                   <h5 class="card-title mb-4 mt-4">How's it goin'? This is Nala</h5>
                 </div>
@@ -90,7 +95,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                  <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/239/original/morita.jpg?1670529623" class="card-img-top" alt="morita">
+                  <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/239/original/morita.jpg?1670529623" class="card-img-top" alt="morita" id="morita" onclick="changePhoto()">
                   <div class="card-body">
                     <h5 class="card-title mb-4 mt-4">Hey ya'll! I'm Morita</h5>
                   </div>
@@ -98,9 +103,9 @@
             </div>
             <div class="col">
                 <div class="card">
-                  <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/240/original/tokito.jpg?1670529874" class="card-img-top" alt="Tokio">
+                  <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/323/original/tokisho.jpg?1670567570" class="card-img-top" alt="Tokio" id="tokio" onclick="picChange()">
                   <div class="card-body">
-                    <h5 class="card-title mb-4 mt-4">How you doin'? My name is Tokio </h5>
+                    <h5 class="card-title mb-4 mt-4">How you doin'? The name is Tokio </h5>
                   </div>
                 </div>
             </div>
@@ -112,12 +117,33 @@
 
         <br>
         <br>
-        <p>Wanna see more of us?</p>
+        <h5 class="mb-5">Wanna see a bit more of us?  <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/306/original/camera.jpg?1670553083" class="emoji"></h5>
+        <br>
 
-        <div style="height: 300.46px; width: 300.00px; position:relative;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/63926f632b0d530147981462" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>      
-        <p>Just sibling games <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/302/original/blocks.png?1670547299" class="toy-emoji" alt="toys">
 
-        <p>Here as babies 💕</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div style="height: 300.46px; width: 300.00px; position:relative;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/63926f632b0d530147981462" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>      
+                <br>
+                <p>Sibling games <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/302/original/blocks.png?1670547299" class="toy-emoji" alt="toys"></p>
+            </div>
+            <div class="col-md-6">
+                <div style="height: 297.26px; width: 318.00px; position:relative;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6392a02c73683f00f320fdc2" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+                <br>
+                <p>Here as babies 💕</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mt-3">
+                <div style="height: 297.66px; width: 300.00px; position:relative;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6392b1bb96938b01ccf8333d" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>      
+                <p class="mt-4">Tokio, just a little naughty princess <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/310/original/princess.jpg?1670557179" height="21"></p>
+            </div>
+            <div class="col-md-6 mt-2">
+                <div style="height: 303.26px; width: 318.00px; padding-bottom: calc(58.60%); position:relative;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6392b9d0f98f97025266aff9" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+                <p class="mt-4">Good Morning!! <em>(Morita and Tokio)</em><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/316/original/sun.png?1670560990" height="32"></p>
+            </div>
+        </div>
+
 <script>
 
 function changeImage() {
@@ -137,12 +163,29 @@ function changeTop() {
 }
 
 function changePic() {
-    if (document.getElementById("nala").src == "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/191/original/IMG-20220620-WA0017.jpg?1670518860"){
+    if (document.getElementById("nala").src == "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/326/original/nalita.jpg?1670567836"){
         document.getElementById("nala").src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/276/original/IMG-20220730-WA0003.jpg?1670537823";
     } else {
-        document.getElementById("nala").src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/191/original/IMG-20220620-WA0017.jpg?1670518860";
+        document.getElementById("nala").src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/326/original/nalita.jpg?1670567836";
     }
 }
+
+function changePhoto() {
+    if (document.getElementById("morita").src == "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/239/original/morita.jpg?1670529623"){
+        document.getElementById("morita").src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/319/original/IMG-20220403-WA0003.jpg?1670566485";
+    } else {
+        document.getElementById("morita").src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/239/original/morita.jpg?1670529623";
+    }
+}
+
+function picChange() {
+    if (document.getElementById("tokio").src == "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/323/original/tokisho.jpg?1670567570"){
+        document.getElementById("tokio").src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/320/original/IMG-20220403-WA0006.jpg?1670566873";
+    } else {
+        document.getElementById("tokio").src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/323/original/tokisho.jpg?1670567570";
+    }
+}
+    
 </script>
 </body>
 </html>
