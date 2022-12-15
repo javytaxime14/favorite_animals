@@ -5,11 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Little wonders ❤️🐶</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap" rel="stylesheet">
 </head>
 <style>
+
+body {
+  background: no-repeat url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/887/original/paw3.png?1671085238);
+  background-size: contain;
+  background-color: #f29137;
+  background-attachment: fixed;
+  background-position: center;
+} 
+
+h1, .quote {
+  color: #DDDEBB;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+}
+
+h3 {
+  color: #f3e9d1;
+  font-family: 'Dosis', sans-serif;
+}
+
+.description {
+  width: 400px;
+}
+
+.card-main {
+  opacity: 0.9;
+  width: fit-content;
+  background-color: #DDDEBB;
+}
+
+.main {
+  color: #000;
+}
 
 .card-img-top {
     filter: sepia(85%);
@@ -29,19 +68,88 @@
 
 @media screen and (max-width: 460px) {
   .card-img-top {
-    width: 84%;
+    width: 95%;
   }
   
   .card-img-top:hover {
-    width: 92%;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .middle-card {
+    margin-left: 4.6px;
+
   }
 }
 
+@media screen and (min-width: 992px) {
+
+  .middle-card {
+    margin-left: 240px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel {
+    width: 90%;
+    margin-right: 255px;
+    height: 280px;
+  }
+
+  .quote {
+    margin-top: 220px;
+    margin-left: 15px;
+  }
+
+  .instruction {
+    width: auto;
+    margin-right: 70px;
+    margin-left: 70px;
+    opacity: 0.8;
+    background-color: #000000;
+    color: #fce28b;
+    cursor: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/469/original/dog.png?1670633939'), auto;
+    font-weight: bold;
+  }
+
+  iframe {
+    margin-left: 35px;
+  }
+
+
+}
+
+@media screen and (min-width: 768px) {
+  .carousel {
+  margin-top: 30px;
+  width: 400px;
+  margin-left: 260px;
+  }
+
+  .quote {
+    margin-top: 65px;
+  }
+
+  .instruction {
+    width: fit-content;
+    margin-left: 360px;
+    opacity: 0.8;
+    background-color: #141414;
+    color: #E47712;
+    cursor: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/469/original/dog.png?1670633939'), auto;
+    font-weight: bold;
+  }
+
+  iframe {
+    margin-left: 125px;
+  }
+}
 
 .cocoa {
     height: 295px;
-
-    
 }
 
 .card {
@@ -62,20 +170,21 @@
     text-decoration: none;
     color: black;
     font-size: 1.28rem;
-    margin-top: -5.8px;
+    margin-top: -1.3px;
     font-weight: 600;
     margin-left:-6.7px;
     margin-right: -5px;
 }
 
 .btn-link:hover {
-  color: blueviolet;
+  color: rgb(240, 167, 21);
   cursor: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/469/original/dog.png?1670633939'), auto;
 
 }
 
-.btn-link:visited {
-  color: rgb(63, 18, 105);
+.footer-text {
+  color: #DDDEBB;
+  text-decoration: none;
 }
 
 .emoji-header {
@@ -87,11 +196,69 @@
 .offcanvas {
   border-radius: 7px 5px 7px 7px;
   height: fit-content;
-  font-size: 14px;
+  font-size: 13.7px;
+  background-color: #f3ce85;
+  border: #E47712 solid 1.5px;
 }
 
 .offcanvas-header .btn-close {
   cursor: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/469/original/dog.png?1670633939'), auto;
+}
+
+.carousel img{
+  width: 290px;
+  height: 380px;
+}
+
+.subtitle {
+  margin-top: 20px;
+  text-align: center;
+  color: #E47712;
+  background-color: #fbda7f;
+  border: 2px solid #E47712;
+  border-radius: 5px 5px 5px 5px;
+
+}
+
+footer {
+  margin-left: 260px;
+  margin-top: 45px;
+  margin-bottom: 13px;
+  font-family: 'Dosis', sans-serif;
+}
+.middle-card {
+  color: #000000;
+  opacity: 0.9;
+  width: fit-content;
+  background-color: #DDDEBB;
+}
+
+.middle {
+  margin-left: 15px;
+  margin-top: 20px;
+  color: #ff6f08;
+}
+
+.main, .middle, .quote {
+  font-family: 'Overpass', sans-serif;
+}
+
+.card-title, .subtitle {
+  font-family: 'Rokkitt', serif;
+
+}
+
+.final-title {
+  color: #F8E5CE;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+
+.instruction:hover {
+  color: #ffd98e;
 }
 
 
@@ -101,20 +268,31 @@
         <h1>Little wonders</h1>
         <h3>Angels with no wings</h3>
         <br>
-        <p> Today I read a quote that says: <em>“I love animals, sometimes more than people, because they don't judge. All they want is love.”</em> <br>The truth is, it made a lot of sense to me.
-        In my case, they taught me the meaning of true love, and loyalty, with no need of words. They taught me that sometimes you can do even more just listening.</p>
-        <p>They showed me how to love unconditionally, more than people did.</p>
-
-        <p>My angels without wings, I call them. Even though they are actually my niece Paula's animal companions. But I learned to love them almost as much as she does.</p>
+        <br>
+        <div class="card card-main">
+          <div class="card-body">
+            <p class="main"> Today I read a quote that says: <em>“I love animals, sometimes more than people, because they don't judge. All they want is love.”</em> <br>The truth is, it made a lot of sense to me.
+              In my case, they taught me the meaning of true love, and loyalty, with no need of words. They taught me that sometimes you can do even more just listening.</p>
+              <p class="main">They showed me how to love unconditionally, more than people did.</p>
+      
+              <p class="main">My angels without wings, I call them. Even though they are actually my niece Paula's animal companions. But I learned to love them almost as much as she does.</p>
+          </div>
+        </div>
 
         <br>
-        <h3 class="mt-3">Do you want to meet them?</h3> <br><em><small>(click on the photo to see each one of them as a baby) <br> (click on each one's names to know a bit more)</small></em>
+        <h3 class="mt-3">Do you want to meet them?</h3> <br>
+        <div class="card instruction">
+          <div class="card-body">
+            <em><small>(click on each photo to see each one of them as a baby) <br> (click on each one's names to know a bit more)</small></em>
+          </div>
+        </div>
+        
 
         <!---- cards----->
 
         <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
             <div class="col">
-              <div class="card">
+              <div class="card description">
                 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/063/original/colito.jpg?1670474163" class="card-img-top" id="colomba" alt="colomba" onclick="changeImage()">
                 <div class="card-body">
                   <h5 class="card-title">Hi! My name is<button type="button" class="btn btn-link" data-bs-toggle="offcanvas" href="#offcanvasColomba" role="button" aria-controls="offcanvasColomba">Colomba</button></h5>
@@ -140,8 +318,8 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
-                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/230/original/cocoa.jpg?1670526698" class="card-img-top cocoa" alt="cocoa">
+              <div class="card description">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/230/original/cocoa.jpg?1670526698" class="card-img-top cocoa" alt="cocoa" id="cocoa" onclick="imageChange()">
                 <div class="card-body">
                   <h5 class="card-title mb-4 mt-4">What's up?<button type="button" class="btn btn-link" data-bs-toggle="offcanvas" href="#offcanvasCocoa" role="button" aria-controls="offcanvasCocoa">Cocoa</button>here</h5><div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasCocoa" aria-labelledby="offcanvasCocoaLabel">
                     <div class="offcanvas-header">
@@ -164,7 +342,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
+              <div class="card description">
                 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/186/original/IMG-20220620-WA0016.jpg?1670517996" class="card-img-top" id="chia" alt="chia" onclick="changeTop()">
                 <div class="card-body">
                   <h5 class="card-title mb-4 mt-4">Hiya! I'm<button type="button" class="btn btn-link" data-bs-toggle="offcanvas" href="#offcanvasChia" role="button" aria-controls="offcanvasChia">Chia</button></h5>
@@ -190,7 +368,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
+              <div class="card description">
                 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/326/original/nalita.jpg?1670567836" class="card-img-top" alt="nala" id="nala" onclick="changePic()">
                 <div class="card-body">
                   <h5 class="card-title mb-4 mt-4">How's it goin'? This is<button type="button" class="btn btn-link" data-bs-toggle="offcanvas" href="#offcanvasNala" role="button" aria-controls="offcanvasNala">Nala</button></h5>
@@ -217,7 +395,7 @@
               </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card description">
                   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/239/original/morita.jpg?1670529623" class="card-img-top" alt="morita" id="morita" onclick="changePhoto()">
                   <div class="card-body">
                     <h5 class="card-title mb-4 mt-4">Hey y'all! I'm<button type="button" class="btn btn-link" data-bs-toggle="offcanvas" href="#offcanvasMorita" role="button" aria-controls="offcanvasMorita">Morita</button></h5>
@@ -233,7 +411,7 @@
                             <br>I'm also a bit lazy hehehe <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/176/original/grinning-face-with-sweat_1f605.gif?1670909637" width="18" > But can you blame me? It's just that I love sleeping; I can sleep almost anywhere <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/473/original/grinning-face-with-smiling-eyes_1f604.gif?1670987431" width="18">, 
                             and I love even more to sleep sunbathing 😀 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/474/original/sun-behind-small-cloud_1f324-fe0f.png?1670988446" width="19"> 
                             <br>I'm always craving for affection, since I was little. In fact, if I trust you enough, I can even fall asleep if you hold me in your arms. And if you get careless, you might get a kiss hehehe.<br>
-                            Can I tell you a secret? Well, maybe it's not that secret 😁 but still... even though she loves us all, I'm the apple of Javi's eye. We liked each other since we met. Well, I liked the glittery laces of her sneakers too <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/176/original/grinning-face-with-sweat_1f605.gif?1670909637" width="18" >, but with time, we started to get along get along very well.
+                            Can I tell you a secret? Well, maybe it's not that secret 😁 but still... even though she loves us all, I'm the apple of Javi's eye. We liked each other since we met. Well, I liked the glittery laces of her sneakers too <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/176/original/grinning-face-with-sweat_1f605.gif?1670909637" width="18" >, but with time, we started to get along very well.
                             I trust her so much, and she loves me and protects me when we see each other 💞.    
                           </p>
                         </div>
@@ -243,18 +421,23 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card description">
                   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/323/original/tokisho.jpg?1670567570" class="card-img-top" alt="Tokio" id="tokio" onclick="picChange()">
                   <div class="card-body">
                     <h5 class="card-title mb-4 mt-4">How you doin'? The name is<button type="button" class="btn btn-link" data-bs-toggle="offcanvas" href="#offcanvasTokio" role="button" aria-controls="offcanvasTokio">Tokio</button></h5>
                     <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasTokio" aria-labelledby="offcanvasTokioLabel">
                       <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasTokioLabel">Tokio <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/471/original/dog-toy.png?1670648032" alt="dog-toy" class="emoji-header"></h5>
+                        <h5 class="offcanvas-title" id="offcanvasTokioLabel">Tokio <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/808/original/imageedit_14_3674800202.png?1671059301" alt="dog-toy" class="emoji-header"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                       </div>
                       <div class="offcanvas-body">
                         <div>
-                        <p>How you doin'? The name is Tokio. I was one of the last 
+                        <p>How you doin'? The name is Tokio, or <em>'Toki', 'Tokito', 'Tokisho'</em>, as my human family calls me <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/850/original/hugging-face_1f917.gif?1671067480" width ="17">.
+                           <br>I was one of the last to get born, with my little sister Morita.
+                          <br>I'm a little sweet baby; sometimes I can be shy, especially if I don't know where I am. <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/175/original/pleading-face_1f97a.gif?1670909431" width="18"> <br>There was a time when I didn't have it easy. I got sick when I was little, and I was hospitalized for a while. That's why now I tend to be suspicious when I'm with people I don't know, or when I've just arrived somewhere. But once I trust, I am very friendly and caring.  
+                          <br>One of my most distinctive traits is that I am very expressive. When I like something or it makes me happy, I wag my little tail so much that sometimes it looks like a helicopter <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/473/original/grinning-face-with-smiling-eyes_1f604.gif?1670987431" width="18">. 
+                          <br>I like to be with Gaby (Paula's mom). I know I'm her favorite, her little baby, and I love her really 💖. I like to play the one who escapes, so that she chases me and cuddles me. I like to cuddle with her in the bed or the sofa too. <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/177/original/two-hearts_1f495.gif?1670909919" width="18">. 
+                          <br> I also like to play with my little sister Morita 💝. She's my best friend, and when we're together it's like we're one. <br> I like to bother my mom, Colomba, to give me kisses, though she's not always in the mood <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/176/original/grinning-face-with-sweat_1f605.gif?1670909637" width="18" > <br>I also like to play game fights with my brother Cocoa.
                         </p>
                         </div>
                       </div>
@@ -266,13 +449,18 @@
         <br>
         <br>
 
+        <div class="card middle-card">
+          <div class="card-body">
+            <p class="middle">"We can be a true hurricane, but you'll certainly love us when you meet us" <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/888/original/perrito.jpg?1671089594" width="45">
+
+            </p>
+          </div>
+        </div>
         
 
-        <p>"We can be a true hurricane, but you'll certainly love us when you meet us" </p>
-
         <br>
         <br>
-        <h5 class="mb-5">Wanna see a bit more of us?  <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/306/original/camera.jpg?1670553083" class="emoji"></h5>
+        <h5 class="mb-5 final-title">Wanna see a bit more of us?  <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/306/original/camera.jpg?1670553083" class="emoji"></h5>
         <br>
 
 
@@ -280,24 +468,74 @@
             <div class="col-md-6">
                 <div style="height: 300.46px; width: 300.00px; position:relative;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/63926f632b0d530147981462" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>      
                 <br>
-                <p>Sibling games <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/302/original/blocks.png?1670547299" class="toy-emoji" alt="toys"></p>
+                <p class="subtitle">Sibling games <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/302/original/blocks.png?1670547299" class="toy-emoji" alt="toys"></p>
             </div>
             <div class="col-md-6">
                 <div style="height: 297.26px; width: 318.00px; position:relative;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6392a02c73683f00f320fdc2" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
                 <br>
-                <p>Here as babies 💕</p>
+                <p class="subtitle">Here as babies 💕</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 mt-3">
                 <div style="height: 297.66px; width: 300.00px; position:relative;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6392b1bb96938b01ccf8333d" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>      
-                <p class="mt-4">Tokio, just a little naughty princess <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/310/original/princess.jpg?1670557179" height="21"></p>
+                <p class="mt-4 subtitle">Tokio, just a little naughty princess <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/310/original/princess.jpg?1670557179" height="21"></p>
             </div>
             <div class="col-md-6 mt-2">
                 <div style="height: 300.46px; width: 300.00px; padding-bottom: calc(56.60%); position:relative;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6392b9d0f98f97025266aff9" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0;" title="Embedded content made on Kapwing" width="100%"></iframe></div>
-                <p class="mt-4">Good Morning!! <em>(Morita and Tokio)</em><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/316/original/sun.png?1670560990" height="32"></p>
+                <p class="mt-4 subtitle">Good Morning!! <em>(Morita and Tokio)</em><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/951/original/sun.png?1671121590" height="32"></p>
             </div>
         </div>
+        <br><br>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/948/original/colomba.jpg?1671120970" class="d-block w-100" alt="colomba">
+              <h5 class="subtitle">Colomba</h5>
+            </div>
+            <div class="carousel-item">
+              <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/075/original/IMG-20220620-WA0015.jpg?1670488445" class="d-block w-100" alt="cocoa">
+              <h5 class="subtitle">Cocoa</h5>
+            </div>
+            <div class="carousel-item">
+              <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/858/original/chia.jpg?1671069662" class="d-block w-100" alt="chia">
+              <h5 class="subtitle">Chia</h5>
+            </div>
+            <div class="carousel-item">
+              <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/191/original/IMG-20220620-WA0017.jpg?1670518860" class="d-block w-100" alt="nala">
+              <h5 class="subtitle">Nala</h5>
+            </div>
+            <div class="carousel-item">
+              <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/860/original/IMG-20220608-WA0007.jpg?1671070047" class="d-block w-100" alt="morita">
+              <h5 class="subtitle">Morita</h5>
+            </div>
+            <div class="carousel-item">
+              <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/861/original/tokito.jpg?1671070196" class="d-block w-100" alt="tokio">
+              <h5 class="subtitle">Tokio</h5>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <br>
+
+        <h5 class="text-center quote">Until one has loved an animal a part of one's soul remains unawakened. <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/863/original/star.jpeg?1671075720" alt="star" width="30"></h5> 
+        <small><em class="text-center quote">-Anatole France</em></small>
+
+        <br><br><br>
+        <footer>
+          <small class="text-center">
+            Coded with 💚 by <a href="https://wwww.github.com/javytaxime14" class="footer-text">Javiera Hidalgo</a><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/910/original/mariposa_amarilla.jpg?1671110885" alt="butterfly" width="18" class="pl-5">
+          </small>
+        </footer>
 
 <script>
 
@@ -306,6 +544,14 @@ function changeImage() {
         document.getElementById("colomba").src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/257/original/IMG-20220702-WA0010.jpg?1670533821";
     } else {
         document.getElementById("colomba").src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/063/original/colito.jpg?1670474163";
+    }
+}
+
+function imageChange() {
+    if (document.getElementById("cocoa").src == "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/230/original/cocoa.jpg?1670526698"){
+        document.getElementById("cocoa").src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/854/original/IMG-20210510-WA0014.jpg?1671068592";
+    } else {
+        document.getElementById("cocoa").src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/230/original/cocoa.jpg?1670526698";
     }
 }
 
